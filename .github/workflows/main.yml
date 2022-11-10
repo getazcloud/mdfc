@@ -20,7 +20,7 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     - uses: azure/arm-deploy@v1
       with:
-        resourceGroupName: github-action-arm-rg
+        resourceGroupName: log3
         template: ./azure.json
         parameters: ./azure.param.json
         deploymentMode: Validate

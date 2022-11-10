@@ -21,7 +21,7 @@ jobs:
     - uses: azure/arm-deploy@v1
       with:
         resourceGroupName: github-action-arm-rg
-        template: ./azuredeploy.json
+        template: ./azure.json
         parameters: ./azure.param.json
         deploymentMode: Validate
         

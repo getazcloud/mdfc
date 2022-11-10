@@ -9,7 +9,7 @@
       "value": "SuperSecretPass20word"
     },
     "dnsLabelPrefix": {
-      "value": "DummyLabel"
+      "value": "dummylabel"
     }
   }
 }

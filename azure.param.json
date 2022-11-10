@@ -6,10 +6,10 @@
       "value": "supersecretuser"
     },
     "adminPassword": {
-      "value": "SuperSecretPassword"
+      "value": "SuperSecretPass20word"
     },
     "dnsLabelPrefix": {
-      "value": "SuperSecretLabelPrefix"
+      "value": "DummyLabel"
     }
   }
 }

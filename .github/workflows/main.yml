@@ -35,8 +35,6 @@ jobs:
     - name: Run Microsoft Security DevOps Analysis
       uses: microsoft/security-devops-action@preview
       id: msdo
-      inputs:
-        categories: 'secrets'
 
     # Upload alerts to the Security tab
     - name: Upload alerts to Security tab

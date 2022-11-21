@@ -19,7 +19,7 @@
       "type": "secureString",
       "minLength": 12,
       "metadata": {
-        "description": "Password for the Virt.ual Machine."
+        "description": "Password for ethe Virt.ual Machine."
       }
     },
     "dnsLabelPrefix": {

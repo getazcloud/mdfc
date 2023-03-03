@@ -13,8 +13,12 @@ jobs:
     # macos-latest supporting coming soon
     runs-on: windows-latest
 
+
     steps:
     - uses: actions/checkout@v2
+    - uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
     - uses: azure/arm-deploy@v1
       with:
         resourceGroupName: log3

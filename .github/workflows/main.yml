@@ -21,7 +21,7 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     - uses: azure/arm-deploy@v1
       with:
-        resourceGroupName: log3
+        resourceGroupName: dev-yaml-multi1
         template: ./azure.json
         parameters: ./azure.param.json
         deploymentMode: Validate

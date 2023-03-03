@@ -156,7 +156,8 @@
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
     "virtualNetworkName": "MyVNET",
-    "networkSecurityGroupName": "default-NSG"
+    "networkSecurityGroupName": "default-NSG",
+    "dummyvar" : "7a2e9c5a-d63f-4ec1-98e4-2ade5d5c2ae8" 
   },
   "resources": [
     {

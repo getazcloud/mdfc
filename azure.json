@@ -17,6 +17,7 @@
     },
     "adminPassword": {
       "type": "secureString",
+      "defaultValue": "StillnotsSecure20wordButIsDUmmy"
       "minLength": 12,
       "metadata": {
         "description": "Password for ethe Virt.ual Machine."
